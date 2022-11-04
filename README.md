@@ -1,6 +1,6 @@
 # rockPaperScissors
 
-Live Preview :
+Live Preview : https://vikyw89.github.io/rockPaperScissors/
 
 This is a project for The Odin Project
 
