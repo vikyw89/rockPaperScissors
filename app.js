@@ -65,7 +65,7 @@ const clickHandler = (e) => {
 
     const draw = document.createElement('img')
     draw.setAttribute('src', './images/draw.gif')
-    draw.setAttribute('width', '20%')
+    draw.setAttribute('width', '10%')
     draw.setAttribute('text-align', 'center')
     draw.setAttribute('transition-duration', '3s')
 
