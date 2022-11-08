@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
+    <header>
+        Rock Paper Scissors
+    </header>
+    <main>
+        <div class="screen">
+            <div class="computerDisplay">
+                <div class="statsComputer">
+                    <div class="name">
+                        Computer
+                    </div>
+                    <div>
+                        <progress class="progress" id="computerHP" value="5" max="5"></progress>
+                    </div>
+                </div>
+                <div class="char">
+                    <img alt="playerChar" src="./images/computerChar.gif">
+                </div>
+            </div>
+            <div class="announcement2">
+            </div>
+            <div class="playerDisplay">
+                <div class="char">
+                    <img alt="playerChar" src="./images/playerChar.png">
+                </div>
+                <div class="statsPlayer">
+                    <div class="name">
+                        Player
+                    </div>
+                    <div>
+                        <progress class="progress" id="playerHP" value="5" max="5"></progress>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="action">
+            <div class="skill-description announcement">
+                <div>
+                    What's your next move ?
+                </div>
+            </div>
+            <div class="skills">
+                <button value="rock">Rock</button>
+                <button value="paper">Paper</button>
+                <button value="scissors">Scissors</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Made by Viky for Odin Project 2022
+    </footer>
     <script src="app.js"></script>
 </body>
 </html>
