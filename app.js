@@ -59,13 +59,13 @@ const clickHandler = (e) => {
 
     const win = document.createElement('img')
     win.setAttribute('src','./images/win.gif')
-    win.setAttribute('width', '50%')
+    win.setAttribute('width', '25%')
     win.setAttribute('text-align', 'center')
     win.setAttribute('transition-duration', '3s')
 
     const draw = document.createElement('img')
     draw.setAttribute('src', './images/draw.gif')
-    draw.setAttribute('width', '10%')
+    draw.setAttribute('width', '50%')
     draw.setAttribute('text-align', 'center')
     draw.setAttribute('transition-duration', '3s')
 
@@ -103,7 +103,6 @@ const clickHandler = (e) => {
         setTimeout(()=> {
             announcer2.removeChild(gameOver)
         },10000)
-        alert('PRESS OK TO RESTART THE GAME')
         computerHPBar.value = 5
         playerHPBar.value = 5
     } else if (computerHPBar.value === 0) {
@@ -113,7 +112,6 @@ const clickHandler = (e) => {
         setTimeout(()=> {
             announcer2.removeChild(win)
         },10000)
-        alert('PRESS OK TO RESTART THE GAME')
         computerHPBar.value = 5
         playerHPBar.value = 5
     }

@@ -8,7 +8,8 @@
 body {
     display:flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
+    min-width: 100vw;
     justify-content: space-between;
     overflow: hidden;
 }
@@ -163,6 +164,7 @@ progress {
     flex-direction: column;
     min-width: fit-content;
     background-color: #131516;
+    padding: 10px;
 }
 
 footer {
