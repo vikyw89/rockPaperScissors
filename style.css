@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+html {
+    color-scheme: dark;
+}
+
 body {
     display:flex;
     flex-direction: column;
@@ -177,7 +181,7 @@ button {
     transition-duration: 1s;
 }
 
-button:hover {
+button:active {
     scale: calc(1.1);
     background-color:royalblue;
 }
