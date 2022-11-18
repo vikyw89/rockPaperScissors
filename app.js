@@ -130,7 +130,7 @@ const buttons = document.querySelectorAll('button')
 const announcer = document.querySelector('.announcement')
 
 buttons.forEach(button => {
-    button.addEventListener('click', clickHandler)
+    button.addEventListener('pointerdown', clickHandler)
 })
 
 announcer.addEventListener('transitionend', removeTransition)
